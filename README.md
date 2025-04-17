@@ -1,24 +1,14 @@
-# README
+# Log Watcher
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on rails implementation of a log watching solution (similar to the tail -f command) using websockets
 
-Things you may want to cover:
+* Ruby version: 3.4.1
+* Rails version 7.2.2
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run the project -
+* Fork and clone the repo
+* cd into the project directory
+* run `bundle install`
+* create a dummy.log file inside log directory (fill with some logs if you may)
+* run rails s
+* watch last 10 logs and as you enter contents into the file

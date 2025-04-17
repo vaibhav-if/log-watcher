@@ -27,7 +27,7 @@ class LogsChannel < ApplicationCable::Channel
             transmit(log) if log.present?
           end
         end
-        sleep(1)
+        sleep(0.5)
       end
     end
   end
